@@ -14,4 +14,8 @@ console.log(color);
 let string = `${first_name}${last_name}${color}23`;
 console.log(string);
 
+// RECUPERO L'ELEMENTO HTML PREPOSTO AL CONTENIMENTO DELLA STRINGA GENERATA E GLI ASSEGNO IL VALORE
+document.getElementById('pwd').innerText = string;
+
+
 
