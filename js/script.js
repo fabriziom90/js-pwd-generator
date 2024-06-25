@@ -6,4 +6,8 @@ console.log(first_name);
 let last_name = prompt('Inserisci il cognome');
 console.log(last_name);
 
+// PERMETTO L'INSERIMENTO DEL COLORE DA PARTE DELL'UTENTE
+let color = prompt('Inserisci il tuo colore preferito');
+console.log(color);
+
 
